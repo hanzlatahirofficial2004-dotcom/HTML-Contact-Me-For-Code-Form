@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meeting Detailes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action ="Exist-Form.html">
+        <hr>
+        <!--Section For Meeting Detailes-->
+        <section>
+            <h2 id = "Meeting's Detailes"> Meeting's Detailes</h2>
+            <p> If You Want To Contact Me For Code Then Fill The Form Given Below</p>
+        <!-- Meeting Name-->
+        <lable for ="Meeting-Name"> <h4>Meeting-Name:</h4> </lable>
+        <input type = "name" id = "Meeting-Name" name = "Meeting-Name" placeholder = "Enter Your Meeting-Name" ><br>
+        <!--Meeting Leader-->
+        <lable for ="Meeting-Leader"> <h4>Meeting-Leader:</h4></lable>
+        <input type = "name" id = "Meeting-Leader" name = "Meeting-Leader" placeholder = "Enter Your Meeting-Leader" ><br>
+        <!--Meeting Email-->
+        <lable for ="Meeting-Email"> <h4>Meeting-Email:</h4></lable>
+        <input type = "email" id = "Meeting-Email" name = "Meeting  -Email" placeholder = "Enter Your Meeting-Email" ><br>
+         <!--Project Submission Date-->
+        <h4>Choose Your Meeting Conducting Date:</h4><br>
+        <lable for ="date"></lable>
+        <input type = "date" id = "date" name = "date" placeholder = "Enter Your Project-Submission Date"><br>
+        <!--Meeting Country-->
+        <lable for ="Meeting-Country"> <h4> Choose Your Meeting-Country Here:</h4></lable>
+        <select id = "Meeting-Country" name = "Meeting-Country">
+            <option value = "Canada">Canada</option>
+           <option value = "Pakistan">Pakistan</option>
+            <option value = "India">India</option>
+            <option value = "USA">USA</option>
+            <option value = "UK">UK</option>
+            <option value = "Australia">Australia</option>
+        </select><br>
+        <!--Meeting City-->
+        <lable for = "Meeting-City"><h4> Choose Your Meeting-City Here:</h4></lable>
+        <select id = "Meeting-City" name = "Meeting-City"> 
+            <option value = "Toronto">Toronto</option>
+            <option value = "Okara">Okara</option>
+            <option value = "Delhi">Delhi</option>
+            <option value = "New York">New York</option>
+            <option value = "London">London</option>
+            <option value = "Sydney">Sydney</option>
+        </select><br>
+        <!--Message For Meeting's Detailes-->
+        <lable for ="Meeting-Message"> <h4>Meeting-Message:</h4></lable>
+        <input type = "text" id = "Meeting-Message" name = "Meeting-Message" placeholder = "Enter Your Meeting-Message" ><br>
+        </section> 
+        
+         <!--Click For Next / Back-->
+    <label for="Next-button">Next:</label>
+<input type="submit" id="Next-button" value="Next">
+<br>
+
+<label for="back-Button">Back:</label>
+<input type="button" id="back-Button"  value = "Back" onclick="window.location.href='Projects-Detailes-Form.html'" >
+
+    </form>
+</body>
+</html>

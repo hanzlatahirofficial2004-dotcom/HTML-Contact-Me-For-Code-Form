@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Team's Detailes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Projects-Detailes-Form.html">
+  
+        <!--Section For Team Detailes-->
+        <section>
+            <h2 id = "Team's Detailes"> Team's Detailes</h2>
+          <hr>
+            <p> If You Want To Contact Me For Code Then Fill The Form Given Below</p>
+        <!--Team Name-->
+        <lable for ="Team-Name"> <h4>Team-Name:</h4> </lable>
+        <input type = "name" id = "Team-Name" name = "Team-Name" placeholder = "Enter Your Team-Name" ><br>
+        <!--Team Leader-->
+        <lable for ="Team-Leader"> <h4>Team-Leader:</h4></lable>
+        <input type = "name" id = "Team-Leader" name = "Team-Leader" placeholder = "Enter Your Team-Leader" ><br>
+        <!--Team Email-->
+        <lable for ="Team-Email"> <h4>Team-Email:</h4></lable>
+        <input type = "email" id = "Team-Email" name = "Team-Email" placeholder = "Enter Your Team-Email" ><br>
+        <!--Team Phone-->
+        <lable for = "Team-Phone"> <h4>Team-Phone:</h4></lable>
+        <input type = "phone" id = "Team-Phone" name = "Team-Phone" placeholder = "Enter Your Team-Phone Number" ><br>
+        <!--Team Country-->
+        <lable for ="Team-Country"> <h4> Choose Your Team-Country Here:</h4></lable>
+        <select id = "Team-Country" name = "Team-Country">
+            <option value = "USA">USA</option>
+           <option value = "Pakistan">Pakistan</option>
+            <option value = "India">India</option>
+            <option value = "UK">UK</option>
+            <option value = "Canada">Canada</option>
+            <option value = "Australia">Australia</option>
+        </select><br>
+        <!--Team City-->
+        <lable for = "Team-City"><h4> Choose Your Team-City Here:</h4></lable>
+        <select id = "Team-City" name = "Team-City">
+             <option value = "New York">New York</option> 
+            <option value = "Okara">Okara</option>
+            <option value = "Delhi">Delhi</option>
+            <option value = "London">London</option>
+            <option value = "Toronto">Toronto</option>
+            <option value = "Sydney">Sydney</option>
+        </select><br>
+        <!--Message For Team's Detailes-->
+        <lable for ="Team-Message"> <h4>Team-Message:</h4></lable>
+        <input type = "text" id = "Team-Message" name = "Team-Message" placeholder = "Enter Your Team-Message" ><br>
+        </section>
+
+        <!--Click For Next / Back-->
+    <label for="Next-button">Next:</label>
+<input type="submit" id="Next-button" value="Next">
+<br>
+
+<label for="back-Button">Back:</label>
+<input type="button" id="back-Button"  value = "Back" onclick="window.location.href='Work-Detailes-Form.html'" >
+
+    </form>
+</body>
+</html>

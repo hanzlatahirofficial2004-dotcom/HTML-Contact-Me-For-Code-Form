@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects Detailes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action = "Meeting-Detailes-Form.html">
+<hr>
+        <!--Section For Project Detailes-->
+        <section>
+            <h2 id = "Project's Detailes"> Project's Detailes</h2>
+            <p> If You Want To Contact Me For Code Then Fill The Form Given Below</p>
+        <!-- Project Name-->
+        <lable for ="Project-Name"> <h4>Project-Name:</h4> </lable>
+        <input type = "name" id = "Project-Name" name = "Project-Name" placeholder = "Enter Your Project-Name"><br>
+        <!--Project Manager-->
+        <lable for ="Project-Manager"> <h4>Project-Manager:</h4></lable>
+        <input type = "name" id = "Project-Manager" name = "Project-Manager" placeholder = "Enter Your Project-Manager"><br>
+        <!--Project Email-->
+        <lable for ="Project-Email"> <h4>Project-Email:</h4></lable>
+        <input type = "email" id = "Project-Email" name = "Project
+        -Email" placeholder = "Enter Your Project-Email" ><br>
+        
+        <!--Project Submission Date-->
+        <h4>Choose Your Project Submission Date:</h4><br>
+        <lable for ="date"></lable>
+        <input type = "date" id = "date" name = "date" placeholder = "Enter Your Project-Submission Date"><br>
+        <!--Project Country-->
+        <lable for ="Project-Country"> <h4> Choose Your Project-Country Here:</h4></lable>
+        <select id = "Project-Country" name = "Project-Country">
+            <option value = "UK">UK</option>
+           <option value = "Pakistan">Pakistan</option>
+            <option value = "India">India</option>
+            <option value = "USA">USA</option>
+            <option value = "Canada">Canada</option>
+            <option value = "Australia">Australia</option>
+        </select><br>
+        <!--Project City-->
+        <lable for = "Project-City"><h4> Choose Your Project-City Here:</h4></lable>
+        <select id = "Project-City" name = "Project-City">
+             <option value = "London">London</option> 
+            <option value = "Okara">Okara</option>
+            <option value = "Delhi">Delhi</option>
+            <option value = "New York">New York</option>
+            <option value = "Toronto">Toronto</option>
+            <option value = "Sydney">Sydney</option>
+        </select><br>
+        <!--Message For Project's Detailes-->
+        <lable for ="Project-Message"> <h4>Project-Message:</h4></lable>
+        <input type = "text" id = "Project-Message" name = "Project-Message" placeholder = "Enter Your Project-Message" ><br>
+        </section>
+        
+     <!--Click For Next / Back-->
+    <label for="Next-button">Next:</label>
+<input type="submit" id="Next-button" value="Next">
+<br>
+
+<label for="back-Button">Back:</label>
+<input type="button" id="back-Button"  value = "Back" onclick="window.location.href='Team-Detailes-Form.html'" >
+
+    </form>
+</body>
+</html>
